@@ -1,0 +1,53 @@
+# --- Environnements Virtuels ---
+# Ignorer le dossier de l'environnement (peu importe son nom)
+venv/
+env/
+.env/
+# Si ton dossier d'environnement a un nom spécifique, ajoute-le ici, par exemple :
+# nlp_aow/
+
+# --- Python ---
+# Fichiers compilés et caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Jupyter Notebooks ---
+# Checkpoints et caches de cellule
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.virtual_documents/
+
+# --- Données et Modèles (Facultatif mais recommandé) ---
+# Ignorer les fichiers de données volumineux s'ils sont dans un dossier data/
+# data/*.csv
+# data/*.json
+# *.pth
+# *.bin
+# *.joblib
+
+# --- Système et IDE ---
+# Fichiers spécifiques à macOS ou Windows
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+nlp_aow/
